@@ -52,7 +52,7 @@ a{
 }
 
 .main{
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/shop.png);
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("shop.png");
     background-size: cover;
     height: 500px;
     background-position: center;
@@ -455,7 +455,7 @@ ul{
 } 
 
 .size-buttons p:hover{
-    border: 2px solid #ff523b;
+    border: 1px solid #ff523b;
 }
 
 .btn-to-cart a{
@@ -835,4 +835,3 @@ form a{
     }
 
 }
-
