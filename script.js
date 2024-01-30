@@ -1,5 +1,6 @@
 
 
+
 updateCartTotal();
 
 var removeCartItem = document.getElementsByClassName('remove');
@@ -39,7 +40,7 @@ function updateCartTotal(){
         // var multPrice = parseFloat(multipliedPrice[i].innerText.replace('$','')); 
          console.log("heloooooo" + (price*quantity));
       
-        multipliedPrice[i].innerText='₹'+ (price*quantity) + '.00';
+        multipliedPrice[i].innerText='$'+ (price*quantity) + '.00';
         
      
       
@@ -61,5 +62,6 @@ function updateCartTotal(){
         updateCartTotal();
     }
 
-    document.querySelector('.total').innerText= '₹' + total + '.00';
+    document.querySelector('.total').innerText= '$' + total + '.00';
  }
+ 
